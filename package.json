@@ -1,0 +1,56 @@
+{
+  "name": "kizzy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "FIXFIX": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch & node backend/server/server.js",
+    "dev": "webpack-dev-server --inline --content-base ./views"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ormabe/kizzy.git"
+  },
+  "author": "Rabiya Watson-Maiorana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ormabe/kizzy/issues"
+  },
+  "homepage": "https://github.com/Ormabe/kizzy#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "connect-flash": "^0.1.1",
+    "connect-session-sequelize": "^4.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-flash": "0.0.2",
+    "express-session": "1.15.3",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^6.4.0",
+    "pg-hstore": "^2.3.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "2.8.1",
+    "sequelize": "^4.3.2",
+    "sequelize-cli": "^2.7.0",
+    "uuid": "^3.1.0",
+    "webpack": "^2.7.0"
+  }
+}
