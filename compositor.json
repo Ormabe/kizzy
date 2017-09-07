@@ -1,0 +1,81 @@
+{
+  "name": "Ormabe/kizzy",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/Ormabe/kizzy",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/kizzy",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "kizzy",
+      "subhead": "",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "kizzy: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "Ormabe",
+          "repo": "kizzy"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/Ormabe/kizzy",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/Ormabe",
+          "text": "Ormabe"
+        }
+      ]
+    }
+  ]
+}
